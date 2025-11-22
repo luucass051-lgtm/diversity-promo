@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Diversity Promo",
-    "slug": "diversity-promo-4lw7ghe8xrmohaltovtxr",
+    "slug": "diversity-promo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,7 +24,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "diversity-promo-4lw7ghe8xrmohaltovtxr"
+        "projectId": "65b2d044-9d2c-42bf-9b2b-279e6aa911d2"
       }
     }
   }
