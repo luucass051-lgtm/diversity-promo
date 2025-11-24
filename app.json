@@ -1,38 +1,41 @@
 {
   "expo": {
     "name": "Diversity Promo",
-    "slug": "65b2d044-9d2c-42bf-9b2b-279e6aa911d2",
+    "slug": "diversity-promo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-
     "assetBundlePatterns": [
       "**/*"
     ],
-
     "ios": {
       "bundleIdentifier": "com.lucas.diversitypromo"
     },
-
     "android": {
       "package": "com.lucas.diversitypromo",
-      "versionCode": 1
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
     },
-
     "extra": {
       "eas": {
         "projectId": "65b2d044-9d2c-42bf-9b2b-279e6aa911d2"
       }
-    }
+    },
+    "sdkVersion": "48.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ]
   }
 }
